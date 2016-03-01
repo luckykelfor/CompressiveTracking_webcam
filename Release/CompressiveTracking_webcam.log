@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/3/1 14:57:28。
+     1>项目“D:\Myworkspace\VS2013\Tracking\CompressiveTracking_webcam\CompressiveTracking_webcam.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (CompressiveTracking.vcxproj, CompressiveTracking_Webcam.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\VisualStudio2013\VC\bin\CL.exe /c /Id:\opencv\build\include /Id:\opencv\build\include\opencv /Id:\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CompressiveTracker.cpp RunTracker.cpp
+         CompressiveTracker.cpp
+     1>CompressiveTracker.cpp(211): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(231): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(232): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(233): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(248): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(249): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(261): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(270): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>CompressiveTracker.cpp(271): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         RunTracker.cpp
+       Link:
+         E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Myworkspace\VS2013\Tracking\Release\CompressiveTracking_Webcam.exe" /NOLOGO /LIBPATH:d:\opencv\build\x86\vc12\lib /LIBPATH:d:\opencv\build\x86\vc12\staticlib opencv_core2411.lib opencv_imgproc2411.lib opencv_highgui2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Myworkspace\VS2013\Tracking\Release\CompressiveTracking_Webcam.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Myworkspace\VS2013\Tracking\Release\CompressiveTracking_Webcam.lib" /MACHINE:X86 /SAFESEH Release\CompressiveTracker.obj
+         Release\RunTracker.obj
+         正在生成代码
+         已完成代码的生成
+         CompressiveTracking_webcam.vcxproj -> D:\Myworkspace\VS2013\Tracking\Release\CompressiveTracking_Webcam.exe
+     1>已完成生成项目“D:\Myworkspace\VS2013\Tracking\CompressiveTracking_webcam\CompressiveTracking_webcam.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.19
